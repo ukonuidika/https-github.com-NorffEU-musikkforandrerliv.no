@@ -1,1 +1,1 @@
-# https-github.com-NorffEU-musikkforandrerliv.no
+# https-github.com-NoroffEU-musikkforandrerliv.no
