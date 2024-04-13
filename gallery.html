@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gallery">
+  <div class="image-container">
+    <img src="images/1.jpg" alt="Image 1" class="image" onmouseover="enlargeImage(this)" onmouseout="shrinkImage(this)"  onload="fadeInImage(this)">
+  </div>
+  <div class="image-container">
+    <img src="images/2.png" alt="Image 2" class="image" onmouseover="enlargeImage(this)" onmouseout="shrinkImage(this)"  onload="fadeInImage(this)">
+  </div>
+  <div class="image-container">
+    <img src="images/3.jpg" alt="Image 3" class="image" onmouseover="enlargeImage(this)" onmouseout="shrinkImage(this)"  onload="fadeInImage(this)">
+  </div>
+</div>
+<script src="gallery.js"></script>
+</body>
+</html>
